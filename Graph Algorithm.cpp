@@ -171,7 +171,7 @@ pair<vector<vector<int>>, vector<int>> getSCCDAGandTopo(
         } 
     }
 
-    DFS to rev graph and find SCC's through reversing edges
+    // DFS to rev graph and find SCC's through reversing edges
     vector<int> comp(n, -1);
     int scc_id = 0;
     while (!finish.empty()) {
